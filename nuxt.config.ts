@@ -90,4 +90,7 @@ export default defineNuxtConfig({
       "2xl": 1536,
     },
   },
+  dir: {
+    public: "public",
+  },
 });

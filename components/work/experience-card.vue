@@ -37,7 +37,7 @@
               border-color="blackAlpha.100"
               border-style="solid"
             >
-              <nuxt-picture :src="project.logo" />
+              <chakra.img :src="project.logo" />
             </c-aspect-ratio>
           </chakra.a>
         </c-circle>
@@ -104,7 +104,7 @@
               border-color="blackAlpha.100"
               border-style="solid"
             >
-              <nuxt-picture :src="company.logo" />
+              <chakra.img :src="company.logo" />
             </c-aspect-ratio>
           </chakra.a>
         </c-circle>
@@ -145,6 +145,8 @@
 
 <script lang="ts" setup>
 import { chakra } from "@chakra-ui/vue-next";
+
+const $img = useImage();
 
 interface Company {
   name: string;
