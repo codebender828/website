@@ -11,7 +11,7 @@
         overflow="hidden"
         z-index="banner"
       >
-        <nuxt-img src="/assets/images/jbakebwa-headshot.jpeg" />
+        <img src="/assets/images/jbakebwa-headshot.jpeg" />
       </c-aspect-ratio>
       <c-animate-presence type="slideUp">
         <chakra.p font-weight="bold" v-if="isOpen"
