@@ -25,7 +25,6 @@ const articles: Record<string, SystemStyleObject> = {
   date: {
     fontSize: "xs",
     color: mode("blue.400", "whiteAlpha.200"),
-    opacity: 0.7,
   },
   title: {
     fontWeight: "bold",

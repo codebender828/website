@@ -23,6 +23,15 @@ export default defineNuxtConfig({
       link: [
         { rel: "icon", type: "image/x-icon", href: "/jonathan-bakebwa.png" },
       ],
+      script: [
+        {
+          async: true,
+          src: "https://www.googletagmanager.com/gtag/js?id=G-6EEM4YVX37",
+        },
+        {
+          src: "/ga.js",
+        },
+      ],
     },
   },
   runtimeConfig: {
