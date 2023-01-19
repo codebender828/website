@@ -102,4 +102,9 @@ export default defineNuxtConfig({
   dir: {
     public: "public",
   },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
+    },
+  },
 });
