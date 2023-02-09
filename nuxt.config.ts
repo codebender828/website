@@ -68,7 +68,7 @@ export default defineNuxtConfig({
   plugins: ["~/plugins/router.ts", "~/plugins/chakra.ts"],
   css: ["~/styles/fonts.scss", "~/styles/prism.scss"],
   content: {
-    documentDriven: true,
+    documentDriven: false,
     markdown: {
       toc: { depth: 5, searchDepth: 3 },
       remarkPlugins: ["remark-prism"],
