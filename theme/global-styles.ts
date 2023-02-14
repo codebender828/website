@@ -36,6 +36,16 @@ export const globalStyles = {
       marginY: "5",
       paddingLeft: "4",
     },
+    "[alt='data-sig']": {
+      maxW: "150px",
+    },
+    "[alt='full-width']": {
+      w: "100%",
+    },
+    table: {
+      tableLayout: "fixed",
+      width: "100%",
+    },
 
     "h1, h2, h3, h4": {
       letterSpacing: "-1px",
