@@ -104,7 +104,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ["/sitemap.xml", "/articles/**/*"],
+      routes: ["/sitemap.xml", "/articles/**/*", "/letters/**/*"],
     },
   },
 });
