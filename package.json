@@ -18,7 +18,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@nuxt/content": "^2.1.1",
+    "@nuxt/content": "^2.4.3",
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@typescript-eslint/parser": "^5.47.0",
@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.9.0",
     "husky": "^8.0.2",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.2.0",
     "prettier": "^2.8.1",
     "sitemap": "^7.1.1",
     "typescript": "^4.9.4",
@@ -48,10 +48,12 @@
     "@fontsource/ibm-plex-mono": "^4.5.13",
     "@fontsource/ibm-plex-sans": "^4.5.13",
     "@funken-studio/sitemap-nuxt-3": "^4.0.4",
+    "@google-analytics/data": "^3.2.0",
     "@nuxt/vite-builder": "^3.0.0",
     "@nuxtjs/color-mode": "^3.2.0",
     "@types/dotenv-defaults": "^2.0.1",
     "@types/prismjs": "^1.26.0",
+    "@unhead/vue": "^1.0.22",
     "@vueuse/core": "^9.9.0",
     "add": "^2.0.6",
     "dayjs": "^1.11.7",
@@ -64,7 +66,8 @@
     "sass": "^1.56.2",
     "vue": "^3.2.37",
     "vue-live": "^2.1.0",
-    "vue-prism-editor": "^2.0.0-alpha.2"
+    "vue-prism-editor": "^2.0.0-alpha.2",
+    "vue-router": "^4.1.6"
   },
   "packageManager": "yarn@2.4.3"
 }

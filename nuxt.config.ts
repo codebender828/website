@@ -102,9 +102,21 @@ export default defineNuxtConfig({
   dir: {
     public: "public",
   },
+  generate: {
+    routes: ["/", "/articles/**/*", "/projects/**/*", "/letters/thank-you"],
+  },
+  build: {
+    transpile: ["@chakra-ui"],
+  },
   nitro: {
     prerender: {
-      routes: ["/sitemap.xml", "/articles/**/*", "/letters/thank-you"],
+      routes: [
+        "/sitemap.xml",
+        "/",
+        "/articles/**/*",
+        "/projects/**/*",
+        "/letters/thank-you",
+      ],
     },
   },
 });
