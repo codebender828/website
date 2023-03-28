@@ -222,7 +222,7 @@ const companies: Company[] = [
     position: "Co-founder, CTO",
     website: "https://mirrorworld.fun",
     startDate: "December 2021",
-    endDate: "Present",
+    endDate: "March 2023",
   },
   {
     name: "Xtellar",
