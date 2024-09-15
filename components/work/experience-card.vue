@@ -217,12 +217,12 @@ const opensourceProjects: OpenSourceProject[] = [
 
 const companies: Company[] = [
   {
-    name: "Mirror World",
+    name: "Mirror World, Inc.",
     logo: "/assets/logos/mirrorworld-logo.png",
     position: "Co-founder, CTO",
     website: "https://mirrorworld.fun",
     startDate: "December 2021",
-    endDate: "March 2023",
+    endDate: "Present",
   },
   {
     name: "Xtellar",
